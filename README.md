@@ -1,6 +1,8 @@
-This repository contains the code used for a course at the Federal University of Santa Catarina (UFSC) in Brazil; therefore, the README and code comments are in Brazilian Portuguese.
-
 # EEL7030 - Microprocessadores
+
+Universidade Federal de Santa Catarina
+
+Departamento de Engenharia Elétrica e Eletrônica
 
 ## Professores
 
