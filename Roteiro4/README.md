@@ -1,32 +1,13 @@
-# _Sample project_
+# Roteiro 4
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
+## Problema a ser resolvido
 
-This is the simplest buildable example. The example is used by command `idf.py create-project`
-that copies the project to user specified path and set it's name. For more information follow the [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project)
+Realizar a contagem de 0x0 a 0xF utilizando um display de 7 segmentos.
 
+## Informações do Hardware
 
+O display de 7 segmentos está ligado nos pinos GPIO do ESP32-C3 de forma que o MSB (most significant bit) está conectado ao segmento de ponto do display e o LSB (least significant bit) está conectado ao segmento a. Dessa forma, a codificação dos segmentos segue a ordem: "DP g f e d c b a". O display é do tipo ANODO COMUM, sendo sensível ao nível lógico BAIXO, onde os segmentos acendem quando o bit correspondente é definido para 0. Os pinos utilizados s"ao GPIO0 à GPIO7, de forma que o GPIO0 corresponde ao LSB.
 
-## How to use example
-We encourage the users to use the example as a template for the new projects.
-A recommended way is to follow the instructions on a [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project).
+## Exercícios
 
-## Example folder contents
-
-The project **sample_project** contains one source file in C language [main.c](main/main.c). The file is located in folder [main](main).
-
-ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt`
-files that provide set of directives and instructions describing the project's source files and targets
-(executable, library, or both). 
-
-Below is short explanation of remaining files in the project folder.
-
-```
-├── CMakeLists.txt
-├── main
-│   ├── CMakeLists.txt
-│   └── main.c
-└── README.md                  This is the file you are currently reading
-```
-Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
-They are not used or needed when building with CMake and idf.py.
+Abra o roteiro no Moodle da disciplina.
