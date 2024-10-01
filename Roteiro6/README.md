@@ -1,8 +1,8 @@
-# Roteiro 5
+# Roteiro 6
 
 ## Problema a ser resolvido
 
-Escrever dados em um display do tipo LCD.
+Escrever dados em um display do tipo LCD e alterá-los com uma interrupção externa.
 
 ## Informações do Hardware
 
@@ -12,14 +12,12 @@ RS --> GPIO8
 R/W --> GND
 ENABLE --> GPIO9
 
-DATA0 --> GPIO0
-DATA1 --> GPIO1
-DATA2 --> GPIO2
-DATA3 --> GPIO3
-DATA4 --> GPIO4
-DATA5 --> GPIO5
-DATA6 --> GPIO6
-DATA7 --> GPIO7
+DATA4 --> GPIO0
+DATA5 --> GPIO1
+DATA6 --> GPIO2
+DATA7 --> GPIO3
+
+O botão para interrupção está conectado no GPIO10.
 
 ## Exercícios
 
